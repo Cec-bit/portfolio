@@ -1,11 +1,24 @@
 "use client";
+
 import React, { useState } from 'react';
 import "./Hover.css";
 
-const Hover = ({ defaultTitle, defaultContent, options }) => {
-  const [selectedOption, setSelectedOption] = useState(null);
+interface Option {
+  title: string;
+  content: string;
+  imageSrc: string;
+}
 
-  const handleClick = (option) => {
+interface HoverProps {
+  defaultTitle: string;
+  defaultContent: string;
+  options: Option[];
+}
+
+const Hover: React.FC<HoverProps> = ({ defaultTitle, defaultContent, options }) => {
+  const [selectedOption, setSelectedOption] = useState<Option | null>(null);
+
+  const handleClick = (option: Option) => {
     if (selectedOption === option) {
       // Deselect the option if clicked again
       setSelectedOption(null);
