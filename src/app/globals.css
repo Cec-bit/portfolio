@@ -165,7 +165,7 @@ nav {
 }
 #Portfolio li iframe {
   width: 100%;
-  height: 50%
+  height: 80%
 }
 
 
@@ -215,4 +215,19 @@ nav {
 .contact-message {
   height: 12rem;
   padding: 1rem;
+}
+
+/* Footer */
+#Footer {
+  background-color: #333;
+  padding: 1rem; /* Size of banner */
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(184, 245, 200, 0.8);
+}
+.footer-links {
+  display: flex;
 }

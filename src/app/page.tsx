@@ -21,16 +21,12 @@ export default function Home() {
         </div>
 
         <div className="Icons">
-          <Link href={"https://www.linkedin.com/in/cecilgravelyjr/"}>
-          <img src="icons8-linkedin-logo-48.png"></img>
-          </Link>
-          <img src="icons8-github-50.png"/>
           <Link href="https://certificates.cs50.io/c863893b-b743-411d-abe2-f63564301d9d.pdf?size=letter">
           <img src="icons8-python-48.png"/>
           </Link>
           <img src="icons8-html-logo-48.png"/>
           <img src="icons8-css-logo-48.png"/>
-          <img src="icons8-sql-50.png"/>
+          <img src="icons8-sql-48.png"/>
         </div>
       </div>
 
@@ -83,6 +79,21 @@ export default function Home() {
   </section>
 
 {/*Footer Section*/}
+
+<footer id="Footer">
+  <div className="footer-links">
+    <Link href={"https://www.linkedin.com/in/cecilgravelyjr/"}>
+      <img src="icons8-linkedin-logo-48.png" />
+    </Link>
+    <Link href={"https://github.com/Cec-bit"}>
+      <img src="icons8-github-50.png" />
+    </Link>
+  </div>
+  <div className="footer-info">
+    <small> Cecil Gravely Jr</small>
+  </div>
+</footer>
+
 
     </main>
     </Layout>
