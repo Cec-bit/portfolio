@@ -8,9 +8,11 @@
     --text-color: white; 
   }
 }
-body {
-  --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
+
+@layer base {
+  body {
+    @apply text-white;
+  }
 }
 
 @media (max-width: 615px) {
