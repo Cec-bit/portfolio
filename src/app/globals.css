@@ -214,7 +214,19 @@ nav {
 
 .contact-message {
   height: 12rem;
-  padding: 1rem;
+  padding: 2rem;
+}
+
+.contact-submit {
+  margin-top: 1rem;
+  padding: 0rem 1rem; 
+  background-color: #333; 
+  color: white;
+  cursor: pointer;
+}
+
+.contact-submit:hover {
+  color: #b8f5c8; /* Adjust hover background color as needed */
 }
 
 /* Footer */

@@ -75,6 +75,7 @@ export default function Home() {
         <input className="contact-form-name" name="name" placeholder="Name"></input>
         <input className="contact-form-email" type="email" name="_replyto" placeholder="Email"></input>
         <textarea className="contact-message" placeholder="Message"></textarea>
+        <button type="submit" className="contact-submit">Submit</button>
       </form>
   </section>
 
