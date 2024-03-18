@@ -4,8 +4,8 @@
 
 
 @media (prefers-color-scheme: dark) {
-  body {
-    color: white; 
+  html {
+    --text-color: white; 
   }
 }
 
