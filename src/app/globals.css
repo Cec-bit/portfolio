@@ -50,7 +50,7 @@ html {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: white;
   background: radial-gradient(ellipse at bottom, #1B2735 0%, #191F24 100%);
   background-color: #555755;
   font-family: system-ui, monospace;
