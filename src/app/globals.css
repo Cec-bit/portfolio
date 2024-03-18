@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white; 
+  }
+}
+
 @media (max-width: 615px) {
   html {
     font-size: 40%;
