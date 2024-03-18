@@ -15,6 +15,10 @@ const config: Config = {
       },
     },
   },
+  corePlugins: {
+    textColor: false,
+  },
   plugins: [],
 };
+
 export default config;
