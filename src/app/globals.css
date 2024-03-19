@@ -84,7 +84,7 @@ nav {
     align-items: center;
   }
   .nav li {
-    margin: 5px 0; /* Adjust margin as needed */
+    margin: 5px 0; 
   }
 }
 
@@ -103,7 +103,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin-top: 2.5rem; /*space between navbar and photo*/
+  margin-top: 2.5rem; 
 }
 
 #homephoto {
@@ -117,6 +117,7 @@ nav {
 .heading {
   font-size: 2vw;
   font-family: Georgia;
+  
 }
 .Icons {
   max-width: 10%;
@@ -146,12 +147,13 @@ nav {
 #Portfolio {
   margin-top: 5rem;
   display: flex;
-  flex-direction: column; /* Stacking children vertically */
+  flex-direction: column; 
   align-items: center;
   text-align: center;
 }
 
 #Portfolio ul {
+  margin-top: 5rem;
   width: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -159,20 +161,23 @@ nav {
 }
 
 #Portfolio li {
-  width: 50%; /* Adjust the width based on your preference */
-  margin-top: 1rem;
-  margin-bottom: 3rem; /* Adjust the margin based on your preference */
+  width: 80%;
+  margin-bottom: 5rem; 
 }
 #Portfolio li iframe {
-  width: 100%;
-  height: 80%
+  width: 80%;
+  height: 100%;
 }
 
 
 /*Contact Section */
 #Contact {
+  margin-top: 2rem;
   align-items: center;
   text-align: center;
+}
+.contact-text {
+  margin-top: 5rem;
 }
 
 .contact {
@@ -180,7 +185,7 @@ nav {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  width: 100%;
+  width: 80%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -199,10 +204,11 @@ nav {
   align-items: center;
   justify-content: center;
   font-size: 1.6rem;
+  margin-top: 20px;
 }
 
 .contact-form-name, .contact-form-email {
-  margin-bottom: 6px;
+  margin-bottom: 10px;
   padding: 1rem;
   height: 4rem;
 }
@@ -226,13 +232,13 @@ nav {
 }
 
 .contact-submit:hover {
-  color: #b8f5c8; /* Adjust hover background color as needed */
+  color: #b8f5c8; 
 }
 
 /* Footer */
 #Footer {
   background-color: #333;
-  padding: 1rem; /* Size of banner */
+  padding: 1rem; 
   bottom: 0;
   width: 100%;
   display: flex;

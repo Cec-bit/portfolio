@@ -46,7 +46,7 @@ const Hover: React.FC<HoverProps> = ({ defaultTitle, defaultContent, options }) 
         ))}
       </div>
 
-      {selectedOption && <img src={selectedOption.imageSrc} alt={selectedOption.title} />}
+      {selectedOption && <img  src={selectedOption.imageSrc} alt={selectedOption.title} />}
     </section>
   );
 };
