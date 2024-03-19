@@ -21,13 +21,23 @@ export default function Home() {
         </div>
 
         <div className="Icons">
-          <Link href="https://certificates.cs50.io/c863893b-b743-411d-abe2-f63564301d9d.pdf?size=letter">
-          <img src="icons8-python-48.png"/>
-          </Link>
-          <img src="icons8-html-logo-48.png"/>
-          <img src="icons8-css-logo-48.png"/>
-          <img src="icons8-sql-48.png"/>
+          <div>
+            <img src="icons8-python-48.png" alt="Python"/>
+            <span className="icon-name">Python</span>
+          </div>
+          <div>
+            <img src="icons8-html-logo-48.png" alt="HTML"/>
+            <span className="icon-name">HTML</span>
+          </div>
+          <div>
+            <img src="icons8-css-logo-48.png" alt="CSS"/>
+            <span className="icon-name">CSS</span>
+          </div>
+          <div>
+            <img src="icons8-sql-48.png" alt="SQL"/>
+            <span className="icon-name">SQL</span>
         </div>
+</div>
       </div>
 
 {/*About Section*/}

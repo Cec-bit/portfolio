@@ -7,7 +7,8 @@
 
 .text-container {
   margin-bottom: 20px;
-  width: 80%
+  width: 80%;
+  font-size: 1.5rem; 
 }
 
 .options-container {
