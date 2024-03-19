@@ -58,22 +58,26 @@ export default function Home() {
 {/*Portfolio Section*/}
   <section id="Portfolio">
     <h2>Portfolio</h2>
-    <ul>
-      <li>
-        <Link href="https://certificates.cs50.io/c863893b-b743-411d-abe2-f63564301d9d.pdf?size=letter">
-          Python Certification
+        <div className='portfolio-content-left'>
           <iframe src="https://www.youtube.com/embed/k2d1QZVF3ww?si=-9nFu-08qOBqzaqK"  allowFullScreen></iframe>
-        </Link>
-      </li>
-      <li>
-          <Link href="https://certificates.cs50.io/38696124-6ac4-400e-8d44-928518b7d08a.png?size=letter">
-            CS50x Certification
-            <iframe src="https://www.youtube.com/embed/6YTU_CQuquc?si=-VmgvmOKV4HV0rua"  allowFullScreen></iframe>
-          </Link>
-      </li>
-      <li>Hello World</li>
-      <li>Hello World</li>
-    </ul>
+
+          <div className='portfolio-info'>
+            <p>
+              Grocery List is a Python program utilizing Kroger's API to make shopping easy.
+            </p>
+          </div>
+        </div>
+
+        <div className='portfolio-content-right'>
+          <iframe src="https://www.youtube.com/embed/6YTU_CQuquc?si=-VmgvmOKV4HV0rua"  allowFullScreen></iframe>
+
+          <div className='portfolio-info'>
+            <p>
+              GodsArena is a rendition of the GameBattles website. A flask application utilizing 
+              Python, Javascript, flask and mySQL.
+            </p>
+          </div>
+        </div>
   </section>
 
 {/*Contact Section*/}

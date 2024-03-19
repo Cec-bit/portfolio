@@ -60,7 +60,7 @@ body {
 }
 
 h2 {
-  font-size: 3vw;
+  font-size: 4vw;
   font-family: Georgia;
   text-decoration-line: underline;
   text-decoration-color: #b8f5c8;
@@ -115,7 +115,7 @@ nav {
   box-shadow: 0 0 10px rgba(184, 245, 200, 0.8);
 }
 .heading {
-  font-size: 2vw;
+  font-size: 3vw;
   font-family: Georgia;
   
 }
@@ -152,22 +152,37 @@ nav {
   text-align: center;
 }
 
-#Portfolio ul {
-  margin-top: 5rem;
+.portfolio-content-left,
+.portfolio-content-right {
   width: 80%;
+  margin-top: 5rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
 }
 
-#Portfolio li {
-  width: 80%;
-  margin-bottom: 5rem; 
+.portfolio-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  font-size: 1.5vw; 
 }
-#Portfolio li iframe {
-  width: 80%;
-  height: 100%;
+
+.portfolio-content-left {
+  flex-direction: row; /* Reverse the order of elements */
 }
+
+.portfolio-content-right {
+  flex-direction: row-reverse; /* Keep the default order */
+}
+
+#Portfolio iframe {
+  width: 50%; /* Adjust width as needed */
+  height: auto;
+}
+
 
 
 /*Contact Section */
