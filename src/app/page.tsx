@@ -46,7 +46,7 @@ export default function Home() {
 
   <Hover
   defaultTitle="Introduction"
-  defaultContent="Hello there, my name is Cecil Gravely Jr. Born and raised in Virginia. My life has been filled with nothing but blessings. I've detailed things I find fascinating and how it has shaped who I am below. Thank you for stopping by!"
+  defaultContent="Hello there, my name is Cecil Gravely Jr. Born and raised in Virginia. My life has been filled with nothing but blessings. Here I've detailed things I find fascinating and how it has shaped who I am in. Thank you for stopping by!"
   options={[
     { title: "Family", 
       content: "Family is the cornerstone of my life, providing unwavering support and love. Growing up in a close-knit environment has instilled in me values of compassion, unity, and resilience. Their encouragement fuels my pursuits, and the bonds we share continually inspire me to strive for excellence in all facets of life.", 
@@ -84,14 +84,14 @@ export default function Home() {
           <div className='portfolio-info'>
             <p>
               GodsArena is a rendition of the GameBattles website. A flask application utilizing 
-              Python, Javascript, flask and mySQL.
+              Python, Javascript, and mySQL.
             </p>
           </div>
         </div>
   </section>
 
 {/*Contact Section*/}
-  <section className="contact" id="Contact">
+  <section id="Contact" className='contact'>
 
       <h2>Contact</h2>
       <div className='contact-text'>

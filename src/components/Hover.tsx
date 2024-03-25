@@ -28,22 +28,24 @@ const Hover: React.FC<HoverProps> = ({ defaultTitle, defaultContent, options }) 
   };
 
   return (
+
+    
     <section className="content">
+    <div className="options-container">
+      {options.map((option, index) => (
+        <div
+          key={index}
+          className={`hover-option ${selectedOption === option ? 'active' : ''}`}
+          onClick={() => handleClick(option)}
+          >
+          {option.title}
+        </div>
+      ))}
+    </div>
+
       <div className="text-container">
         <h3>{selectedOption ? selectedOption.title : defaultTitle}</h3>
         <p>{selectedOption ? selectedOption.content : defaultContent}</p>
-      </div>
-
-      <div className="options-container">
-        {options.map((option, index) => (
-          <div
-            key={index}
-            className={`hover-option ${selectedOption === option ? 'active' : ''}`}
-            onClick={() => handleClick(option)}
-          >
-            {option.title}
-          </div>
-        ))}
       </div>
 
       {selectedOption && <img  src={selectedOption.imageSrc} alt={selectedOption.title} />}
