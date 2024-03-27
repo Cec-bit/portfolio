@@ -2,6 +2,9 @@ import Link from 'next/link'; {/*For Icons and Portfolio Links*/}
 import Layout from '../app/layout';
 import NavBar from '../components/NavBar';
 import Hover from '../components/Hover';
+import ContactForm from '../components/ContactForm';
+import dotenv from 'dotenv';
+dotenv.config();
 
 
 export default function Home() {
@@ -91,20 +94,7 @@ export default function Home() {
   </section>
 
 {/*Contact Section*/}
-  <section id="Contact" className='contact'>
-
-      <h2>Contact</h2>
-      <div className='contact-text'>
-      <p>Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
-    </div>
-
-      <form className="contact-form">
-        <input className="contact-form-name" name="name" placeholder="Name"></input>
-        <input className="contact-form-email" type="email" name="_replyto" placeholder="Email"></input>
-        <textarea className="contact-message" placeholder="Message"></textarea>
-        <button type="submit" className="contact-submit">Submit</button>
-      </form>
-  </section>
+<ContactForm/>
 
 {/*Footer Section*/}
 
