@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from 'react';
-import "./Hover.css";
 
 interface Option {
   title: string;

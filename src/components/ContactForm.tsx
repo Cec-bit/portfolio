@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from 'react';
-import "./ContactForm.css";
 import axios from 'axios'; // Import axios for making HTTP requests
 
 function ContactForm() {
