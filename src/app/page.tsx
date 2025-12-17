@@ -20,7 +20,6 @@ export default function Home() {
 
         <div className="heading">
           <h1>Hello, I'm <span style={{ color: '#b8f5c8' }}>Cecil</span>.</h1>
-          <h1>I'm an aspiring digital philosopher.</h1>
         </div>
 
         <div className="Icons">
